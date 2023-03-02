@@ -1,0 +1,74 @@
+{{ define "main" }}
+<section class="section container-fluid mt-n3 pb-3">
+  <div class="row justify-content-center">
+    <div class="col-lg-12 text-center">
+      <h1 class="mt-0">{{ .Title }}</h1>
+    </div>
+    <div class="col-lg-9 col-xl-8 text-center">
+      <h2 class="lead" style="font-size: 1.3em;color: #555">{{ .Params.lead | safeHTML }}</h2>
+      <br/>
+      <a class="btn btn-primary btn-lg px-4 mb-2" href="/player/" role="button">{{ i18n "get-started" }}</a>
+      <p class="meta">Start <a href="/player/">speaking</a> like a ninja right away, for free</p>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ define "sidebar-prefooter" }}
+  {{ if eq $.Site.Language.LanguageName "English" }}
+  <section class="section section-sm">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-5">
+          <h3 class="h4">Natural sounding voices & multilingual</h3>
+          <p>Powered by novel AI technology, SpeechNinja lets you select the voice you want from a range of the most natural sounding voices already installed on your device & browser. Select the rate to generate the right speech for you.</p>
+        </div>
+        <div class="col-lg-5">
+          <h3 class="h4">Fast, for live conversations ⚡️</h3>
+          <p>SpeechNinja is designed bottom up for real time conversations. This is what it's built for, and it's the best at it. It's all the small things that together make it the most suitable for the job: as clearing the text once spoken, having a log of recent sentences, single tap to speak a pre-typed sentence, quick edits, and more.</p>
+        </div>
+        <div class="col-lg-5">
+          <h3 class="h4">ALS friendly</h3>
+          <p>Thanks to helpful feedback from our friend JC that has ALS, SpeechNinja is built to work just as well with eye-tracking technology as well as with regular mouse & keyboard.</p>
+        </div>
+      </div>
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-5">
+          <h3 class="h4">Custom pre-typed sentences</h3>
+          <p>SpeechNinja has a feature that lets you organize your own board of pre typed words & sentences, and also label them however you choose. This lets you build a very powerful tool. In the future, we plan to enable sharing, uploading and installing boards prepared by and for the community.</p>
+        </div>
+        <div class="col-lg-5">
+          <h3 class="h4">Use your own voice!</h3>
+          <p>There are a few companies now that offer the possibility to generate a synthesized voice built by AI from your own voice so to mimic your own voice when speaking. If you have your own voice installed on your device - it can be selected to be used by SpeechNinja. Currently supported on Firefox browser only.</p>
+        </div>
+        <div class="col-lg-5">
+          <h3 class="h4">Lightweight & offline</h3>
+          <p>SpeechNinja is light weight and works out of the box directly from your browser. No need to install, download, no latency, and even works in low-connectivity areas or completely offline after loaded.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div style="max-width: 600px; padding: 20px;margin: auto;text-align: justify">
+  <section class="section section-sm">
+    <h3>Who can benefit from SpeechNinja</h3>
+    <p>Anyone who has difficulties in speech might find SpeechNinja useful. Speech difficulties could be the result of many conditions.
+      According to the American Speech-Language-Hearing Association (ASHA) More than 2 million people in the United States have a severe communication disorder that impairs their ability to talk. This problem may be short or long and may be congenital (present at birth), acquired (occurring later in late), or degenerative (worsening throughout life).
+      <br>
+      Some of the causes might be: Throat surgery, or just a soar-throat, Parkinson's disease, ALS, Cerebral-Palsy, born physical disabilities, injuries and others.
+    </p>
+  </section>
+
+  </div>
+  {{ end }}
+{{ end }}
+
+{{ define "sidebar-footer" }}
+<section class="section section-sm container-fluid">
+  <div class="row justify-content-center text-center">
+    <div class="col-lg-9">
+      {{- .Content -}}
+    </div>
+  </div>
+</section>
+{{ end }}
