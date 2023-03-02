@@ -16,9 +16,8 @@ toc: true
 ## Discussions & issues reporting
 
 Here are links to the following public forums, where you can see what others posted and post your own. Links open on Github platform.
-- [Discussions]()
-- [Report issues]()
-- [Feedback]()
+- [Discussions](https://github.com/ttsreader/speechninja/discussions)
+- [Report issues](https://github.com/ttsreader/speechninja/issues)
 
 ## Contact us
 [Contact page](/contact/)
