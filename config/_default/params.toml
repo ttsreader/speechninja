@@ -10,7 +10,7 @@ description = "SpeechNinja says what you type in real time. It is an Augmentativ
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["doks.png"]
+images = ["tile_920x680.jpg"]
 ogLocale = "en_US"
 domainTLD = "doks.netlify.app"
 titleHome = "SpeechNinja - Type to Speak"
@@ -28,10 +28,10 @@ schemaAuthorTwitter = "https://twitter.com/speechlogger"
 schemaAuthorLinkedIn = "https://www.linkedin.com/in/ronen-r/"
 schemaAuthorGitHub = "https://github.com/RonenR"
 schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
+schemaLogo = "icon_128.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "doks.png"
+schemaImage = "tile_920x680.jpg"
 schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/speechlogger"
