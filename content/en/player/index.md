@@ -1,9 +1,9 @@
 ---
-title: "Player test"
-description: ""
-lead: "An appendix of hosted documentation for nearly every release of Doks, from v0 through v3."
-date: 2021-09-24T08:50:23+02:00
-lastmod: 2021-09-24T08:50:23+02:00
+title: "SpeechNinja Player - Type to Speak"
+description: "SpeechNinja says what you type in real time, using natural sounding voices."
+lead: ""
+date: 2023-02-24T08:50:23+02:00
+lastmod: 2023-02-24T08:50:23+02:00
 draft: false
 images: []
 layout: player
