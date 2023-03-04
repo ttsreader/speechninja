@@ -9,7 +9,7 @@
     "defaults"
   ],
   "repository": "https://github.com/h-enk/doks",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "publishConfig": {
     "access": "public"
   },
