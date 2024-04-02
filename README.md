@@ -19,14 +19,15 @@ This website is built on 2 parts - that have to be generated separately and then
 
 ## How to develop:
 
-(1) Develop the site wrapper here. Run `npm start` to test.
-(2) Develop the app itself on Speechninja2 project. Test there.
+1. Develop the site wrapper here. Run `npm start` to test.
+2. Develop the app itself on Speechninja2 project. Test there.
 
 # How to build & publish?
 
-(1) Build the web wrapper here with `npm run build`
-(2) Build the app on speechninja2 project.
-(3) Copy the content built on speechninja2 to the 'docs/player/' folder here, in order to replace the contents with the app itself.
-(4) Commit & push. Github will automatically take the updated content in 'docs' to the site.
+1. Build the web wrapper here with `npm run build`
+2. Build the app on speechninja2 project.
+3. Copy the content built on speechninja2 to the 'docs/player/' folder here, in order to replace the contents with the app itself.
+4. Specifically copy index.html from the app to the player folder and name it 'index_from_app.html' so it doesn't get overwritten.
+5. Commit & push. Github will automatically take the updated content in 'docs' to the site.
 
 
